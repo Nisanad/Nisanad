@@ -1,0 +1,27 @@
+.d1d1-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 16px;
+  
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 400px;
+    padding-right: 200px;
+    padding-top: 50px;
+}
+.dheader{
+    display: flex;
+    border-bottom: 1px solid gray;
+    height: 50;
+    justify-content: center;
+    align-items: center;
+}
+.decision{
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1000px;
+    padding-right: 200px;
+    padding-top: 50px;
+}

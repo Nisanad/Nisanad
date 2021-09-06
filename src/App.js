@@ -4,7 +4,7 @@ import './App.css';
 
 
 
-document.body.style.background = "#e6f7ff"; //พื้นหลังทั้งเว็บ
+//document.body.style.background = "#e6f7ff"; //พื้นหลังทั้งเว็บ
 function App() {
   const [session, setSession] = useState({
     isLoggedIn: false,

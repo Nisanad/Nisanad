@@ -4,9 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import D1d1 from './components/D1d1';
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <D1d1 />
   </React.StrictMode>,
   document.getElementById('root')
 );
