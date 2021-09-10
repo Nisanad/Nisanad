@@ -16,10 +16,10 @@ function D1d1(){
     </button>
     <div class="dropdown-menu">
       <a class="dropdown-item" href="#">09.00-09.02</a>
-      <a class="dropdown-item" href="#"></a>
-      <a class="dropdown-item" href="#"></a>
-      <a class="dropdown-item" href="#"></a>
-      <a class="dropdown-item" href="#"></a>
+      <a class="dropdown-item" href="#">09:02-09:04</a>
+      <a class="dropdown-item" href="#">09:04-09:06</a>
+      <a class="dropdown-item" href="#">09:06-09:08</a>
+      <a class="dropdown-item" href="#">09:08-09:10</a>
       </div>
   </div>
 
@@ -31,12 +31,12 @@ function D1d1(){
     <div class="dropdown-menu">
       <a class="dropdown-item" href="#">กยศ.</a>
       <a class="dropdown-item" href="#">กรอ.</a>
-      <a class="dropdown-item" href="#"></a>
+    
     </div>
    </div></div>
 
    <div className="decision"> 
-       <button type="button" class="btn btn-success">ยืนยัน</button>
+       <button type="button" class="btn btn-success">ยืนยัน</button>&emsp;&emsp;&emsp;&emsp;
    <button type="button" class="btn btn-danger">ยกเลิก</button></div>
   
   </div>

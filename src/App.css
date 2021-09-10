@@ -40,7 +40,7 @@
 }
 .Box {
   background-color: #ffffff;
-  width: 400px;
+  width: 600px;
   border: 1px solid black;
   padding: 100px;
   margin: 200px;
@@ -70,4 +70,27 @@
 }
 .AppBG{
   background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+.DBox1 {
+  background-color: #ffffff;
+  width: 10px;
+  border: 1px solid black;
+  padding: 100px;
+  margin: 200px;
+ 
+}
+.h1 {
+   padding: 100px;
+  margin: 100px;
+}
+.buttonD1{
+  border: 0px;
+  width: 100px;
+  height: 100px;
+  background: rgb(177, 214, 245);
+  border: 2px;
+  border-radius: 15px
+}
+.dura{
+margin: 150px 50px 75px 500px;
 }

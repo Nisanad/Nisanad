@@ -5,10 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import D1d1 from './components/D1d1';
+import Duration1 from './Duration1';
 
 ReactDOM.render(
   <React.StrictMode>
-    <D1d1 />
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );

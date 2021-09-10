@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Login from './components/Login';
 import './App.css';
+import Duration1 from './Duration1';
+
 
 
 
@@ -30,13 +32,16 @@ function App() {
    
   return (
   <div  >
-    
-        {session.isLoggedIn ? (
+    <div>
+      {session.isLoggedIn ? (
           <header >          
           </header>) :
           (<Login setSession={setSession} />)
 
-        }
+        }</div>
+        <div>
+          <Duration1/>
+        </div>
       </div>
   );
 
