@@ -4,6 +4,7 @@ import './App.css';
 function Duration1(){
     return (
         <div > 
+            <div className="topbox"></div>
             <h2>กรุณาเลือกช่วงเวลา</h2>
             <br></br><br></br>
             <div className="dura">

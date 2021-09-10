@@ -83,6 +83,12 @@
    padding: 100px;
   margin: 100px;
 }
+
+
+
+
+
+
 .buttonD1{
   border: 0px;
   width: 100px;
@@ -93,4 +99,17 @@
 }
 .dura{
 margin: 150px 50px 75px 500px;
+}
+
+.topbox{
+   
+    background-color: #437cf7;
+    width: 2000px;
+    height: 100px;
+    border: 0px ;
+    margin: 0px;
+    border: 2px;
+    border-radius: 10px
+   
+  
 }

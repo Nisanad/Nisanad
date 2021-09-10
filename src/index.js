@@ -9,7 +9,7 @@ import Duration1 from './Duration1';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App/>
+    <D1d1/>
   </React.StrictMode>,
   document.getElementById('root')
 );
