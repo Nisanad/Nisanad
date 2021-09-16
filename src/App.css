@@ -1,3 +1,4 @@
+
 .App {
 
   text-align: center;
@@ -43,7 +44,7 @@
   width: 600px;
   border: 1px solid black;
   padding: 100px;
-  margin: 200px;
+  margin:  20px 50px 400px 100px;
  
 }
 .button{
@@ -89,6 +90,7 @@
 
 
 
+
 .buttonD1{
   border: 0px;
   width: 100px;
@@ -98,12 +100,12 @@
   border-radius: 15px
 }
 .dura{
-margin: 150px 50px 75px 500px;
+margin: 50px 50px 75px 500px;
 }
 
 .topbox{
    
-    background-color: #437cf7;
+    background-color: #90c3ec;
     width: 2000px;
     height: 100px;
     border: 0px ;
@@ -111,5 +113,16 @@ margin: 150px 50px 75px 500px;
     border: 2px;
     border-radius: 10px
    
-  
+  }
+  .psulogo{
+   padding: 10px;
+   margin: 20px 0px 0px 0px;
+
+  }
+  .h2header{
+    display: flex;
+   
+    height: 50;
+    justify-content: center;
+    align-items: center;
 }

@@ -2,18 +2,19 @@ import React, { useEffect, useState } from 'react';
 import Login from './components/Login';
 import './App.css';
 import Duration1 from './Duration1';
+import D1d1 from './components/D1d1';
 
 
 
 
 //document.body.style.background = "#e6f7ff"; //พื้นหลังทั้งเว็บ
-function App() {
+function App () {
   const [session, setSession] = useState({
     isLoggedIn: false,
     cerrentUser: null,
     errorMessage: null,
   });
-  /* useEffect(() => {
+   /*useEffect(() => {
      const handleAuth = auth.onAuthStateChanged(user =>{
        if(user){
          setSession({
@@ -41,6 +42,7 @@ function App() {
         }</div>
         <div>
           <Duration1/>
+         
         </div>
       </div>
   );

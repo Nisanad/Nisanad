@@ -1,11 +1,26 @@
 import React from 'react';
+import { Component } from 'react';
 import './App.css';
+import D1d1 from './components/D1d1';
+
+
 
 function Duration1(){
     return (
+        
         <div > 
-            <div className="topbox"></div>
-            <h2>กรุณาเลือกช่วงเวลา</h2>
+            <div className="topbox" >&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            
+            <img src="psu-logo.png" width="100px" className="psulogo"  ></img> </div>
+
+            <img src="estudent.jpg" width="120px"  ></img>
+            
+            <h2 className="h2header" >กรุณาเลือกช่วงเวลา</h2>
             <br></br><br></br>
             <div className="dura">
             <div>  
@@ -27,7 +42,7 @@ function Duration1(){
             
             
             
-            
+         
             
         </div>
     );

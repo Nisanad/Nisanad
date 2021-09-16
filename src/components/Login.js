@@ -39,8 +39,10 @@ const handleLogin = async () => {
     return(
     <div  >
         
+        <img src="estudent.jpg" width="200px"  ></img>
        
         <center>
+        <div> <h1> ระบบจองคิวสำหรับกองทุนกู้ยืมกยศ./กรอ.</h1></div>
         <div className="Box" > 
             <header class="pleaseinputtext" >Please input your passport account name and your Password 
             /กรุณากรอกบัญชี PSU Passport และรหัสผ่าน</header><br></br>
